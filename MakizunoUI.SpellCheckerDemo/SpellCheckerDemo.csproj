@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MakizunoSpellChecker.DllDemo">
+      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\bin\Release\net9.0-windows7.0\MakizunoSpellChecker.DllDemo.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Release\net9.0-windows7.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+ 
+  </ItemGroup>
+
+</Project>
