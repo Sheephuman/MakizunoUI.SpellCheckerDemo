@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="MakizunoSpellChecker.DllDemo">
-      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\MakizunoSpellChecker.DllDemo.dll</HintPath>
+    <Reference Include="MakizunoSpellChecker.DllDemo">      
+      <HintPath>..\..\MakizunoUI.SpellCheckerDemo\MakizunoUI.SpellCheckerDemo\MakizunoSpellChecker.DllDemo.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\MakizunoUI.SpellCheckerDemo\MakizunoUI.SpellCheckerDemo\Newtonsoft.Json.dll</HintPath>
     </Reference>
  
   </ItemGroup>
