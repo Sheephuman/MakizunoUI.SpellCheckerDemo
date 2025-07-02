@@ -10,12 +10,21 @@
 
   <ItemGroup>
     <Reference Include="MakizunoSpellChecker.DllDemo">
-      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\bin\Release\net9.0-windows7.0\MakizunoSpellChecker.DllDemo.dll</HintPath>
+      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\MakizunoSpellChecker.DllDemo.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>bin\Release\net9.0-windows7.0\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\SinWaveSamplDemo\SinWaveSample\Newtonsoft.Json.dll</HintPath>
     </Reference>
  
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MakizunoSpellChecker.DllDemo.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
