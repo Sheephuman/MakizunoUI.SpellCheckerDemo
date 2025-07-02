@@ -55,25 +55,11 @@ namespace MakizunoUI.SpellCheckerDemo
         private void Window_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
 
-            if (!isFirst)
-            {
-                MessageBox.Show("これは巻き角スペルチェッカーのデモ版です。5分後にこのアプリケーションは自動的に終了します ", "巻き角スペルチェッカーのデモ版", MessageBoxButton.OK, MessageBoxImage.Information);
-                _Demotime.Start();
-                // ウィンドウが表示されたときにタイマーを開始
-                isFirst = true; // 初回ロード後はフラグを更新
-            }
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            _Demotime.Tick += (s, e) =>
-            {
-                _Demotime.Stop();
-                MessageBox.Show("デモ時間が終了しました。アプリケーションを終了します。", "終了", MessageBoxButton.OK, MessageBoxImage.Information);
-                Application.Current.Shutdown();
 
-
-            };
 
             SpellValidatorTestbox.Text = "巻き角スペルチェッカーのデモ \r\n -codec:v libx265 -vf yadif=0:-1:1 -pix_fmt yuv420p \r\n -acodec aac -threads \r\n \r\n 文章は解析できません。\r\n 区切りは全角・半角スペースを問いません \r\n 1000文字以上のチェックは重くなります。\r\n フォーカスしたコントロールにSinWaveを描画します";
             SpellValidatorComboBox.Text = "巻き角スペルチェッカーのデモ　-codec:v libx265 -vf yadif=0:-1:1  -pix_fmt yuv420p -acodec aac  -threads";
