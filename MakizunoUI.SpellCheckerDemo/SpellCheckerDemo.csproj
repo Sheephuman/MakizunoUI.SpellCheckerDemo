@@ -10,7 +10,10 @@
 
   <ItemGroup>
     <Reference Include="MakizunoSpellChecker.DllDemo">      
-      <HintPath>..\..\MakizunoUI.SpellCheckerDemo\MakizunoUI.SpellCheckerDemo\MakizunoSpellChecker.DllDemo.dll</HintPath>
+      <HintPath>..\..\MakizunoUI.SpellCheckerDemo\MakizunoUI.SpellCheckerDemo\Mk1.MakizunoSpellChecker.dll</HintPath>
+    </Reference>
+    <Reference Include="Mk1.MakizunoSpellChecker">
+      <HintPath>Mk1.MakizunoSpellChecker.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\MakizunoUI.SpellCheckerDemo\MakizunoUI.SpellCheckerDemo\Newtonsoft.Json.dll</HintPath>
@@ -19,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="MakizunoSpellChecker.DllDemo.dll">
+    <None Update="Mk1.MakizunoSpellChecker.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Newtonsoft.Json.dll">

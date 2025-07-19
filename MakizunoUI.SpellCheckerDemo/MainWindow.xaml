@@ -2,9 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MakizunoUI.SpellCheckerDemo"
-        xmlns:c="clr-namespace:MakizunoUI.Controls;assembly=MakizunoSpellChecker.DllDemo" xmlns:c1="clr-namespace:MakizunoUI.Controls;assembly=MakizunoSpellChecker.DllDemo"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+        xmlns:c="clr-namespace:MakizunoUI.Controls;assembly=MakizunoSpellChecker.DllDemo"
         IsVisibleChanged="Window_IsVisibleChanged"
         Loaded="Window_Loaded"
         Title="巻き角スペルチェッカー【デモ版】" Height="450" Width="800">
